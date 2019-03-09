@@ -1,0 +1,18 @@
+create database pavi;
+create table user(
+user_id int not null,
+firstname varchar(15) not null,
+lastname varchar(15) not null,
+user_rollno varchar(10) not null,
+user_address varchar(20));
+desc user;
+INSERT INTO user VALUES(1,'pavi','sir','11','salem');
+INSERT INTO user VALUES(1,'sangee','sir','12','delhi');
+INSERT INTO user VALUES(1,'pavi','sir','13','kombakonam');
+INSERT INTO user VALUES(1,'pavi','sir','14','kerala');
+INSERT INTO user VALUES(1,'pavi','sir','15','chennai');
+INSERT INTO user VALUES(1,'pavi','sir','16','thiruchi');
+INSERT INTO user VALUES(1,'pavi','sir','17','namacal');
+INSERT INTO user VALUES(1,'pavi','sir','18',';
+INSERT INTO user VALUES(1,'pavi','sir','19','');
+INSERT INTO user VALUES(1,'pavi','sir','20','');
